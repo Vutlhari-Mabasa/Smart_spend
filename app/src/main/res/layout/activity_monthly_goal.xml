@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#041E35"
+    tools:context=".MonthlyGoalActivity">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/txtGoalTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Your Monthly Spending Goals"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center"/>
+
+    <!-- Minimum Spending Goal -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtMinGoal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Minimum Spending Goal"
+            android:inputType="numberDecimal"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#374151"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Maximum Spending Goal -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtMaxGoal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Maximum Spending Goal"
+            android:inputType="numberDecimal"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#374151"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Button to Save Goals -->
+    <Button
+        android:id="@+id/btnSaveGoals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Goals"
+        android:background="#374151"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

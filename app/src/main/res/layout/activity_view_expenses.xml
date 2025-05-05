@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#041E35">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Expenses"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center" />
+
+    <!-- Date Picker (Start Date) -->
+    <Button
+        android:id="@+id/btnSelectStartDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Start Date"
+        android:background="#374151"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Selected Start Date Display -->
+    <TextView
+        android:id="@+id/txtStartDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Date: Not selected"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Date Picker (End Date) -->
+    <Button
+        android:id="@+id/btnSelectEndDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select End Date"
+        android:background="#374151"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Selected End Date Display -->
+    <TextView
+        android:id="@+id/txtEndDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End Date: Not selected"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Button to View Expenses -->
+    <Button
+        android:id="@+id/btnViewExpenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Expenses"
+        android:background="#374151"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp" />
+
+    <!-- RecyclerView for displaying expenses -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvExpenses"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1" />
+</LinearLayout>
