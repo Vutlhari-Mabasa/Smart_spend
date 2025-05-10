@@ -23,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Select Start Date"
-        android:background="#374151"
+        android:backgroundTint="#0097A7"
         android:textColor="#FFFFFF"
         android:layout_marginBottom="8dp"/>
 
@@ -33,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Select End Date"
-        android:background="#374151"
+        android:backgroundTint="#0097A7"
         android:textColor="#FFFFFF"
         android:layout_marginBottom="16dp"/>
 
@@ -43,7 +43,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="View Total by Category"
-        android:background="#374151"
+        android:backgroundTint="#0097A7"
         android:textColor="#FFFFFF"
         android:layout_marginBottom="16dp"/>
 

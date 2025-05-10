@@ -1,14 +1,20 @@
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="#041E35"
     android:padding="16dp">
 
     <RelativeLayout
+        android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
             android:id="@+id/imageViewLogo"
@@ -18,34 +24,47 @@
             android:src="@drawable/logo"
             android:contentDescription="Logo" />
 
-        <TextView
-            android:id="@+id/textViewTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Add Category"
-            android:textColor="#FFFFFF"
-            android:textSize="24sp"
-            android:layout_alignParentStart="true"
-            android:layout_centerVertical="true" />
     </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Category"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/relativeLayout"
+        android:layout_marginTop="16dp" />
 
     <EditText
         android:id="@+id/edtCategoryName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter Category Name"
         android:backgroundTint="#374151"
-        android:textColorHint="#FFFFFF"
+        android:hint="Enter Category Name"
+        android:padding="12dp"
         android:textColor="#FFFFFF"
-        android:layout_marginTop="32dp"
-        android:padding="12dp" />
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/textViewTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
 
     <Button
         android:id="@+id/btnSaveCategory"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#0097A7"
         android:text="Save Category"
-        android:backgroundTint="#374151"
         android:textColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/edtCategoryName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp" />
-</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

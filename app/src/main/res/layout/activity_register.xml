@@ -48,7 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:backgroundTint="#374151"
+        android:backgroundTint="#0097A7"
         android:text="Register"
         android:textColor="#FFFFFF" />
 
@@ -57,7 +57,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:backgroundTint="#374151"
+        android:backgroundTint="#0097A7"
         android:onClick="onBackPressed"
         android:text="Back"
         android:textColor="#FFFFFF" />

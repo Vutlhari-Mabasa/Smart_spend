@@ -41,7 +41,7 @@
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
-            android:backgroundTint="#374151"
+            android:backgroundTint="#0097A7"
             android:text="Add Category"
             android:textColor="#FFFFFF" />
 
@@ -50,7 +50,7 @@
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
-            android:backgroundTint="#374151"
+            android:backgroundTint="#0097A7"
             android:text="Create Expense"
             android:textColor="#FFFFFF" />
 
@@ -59,7 +59,7 @@
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
-            android:backgroundTint="#374151"
+            android:backgroundTint="#0097A7"
             android:text="View Expenses"
             android:textColor="#FFFFFF" />
 
@@ -68,7 +68,7 @@
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
-            android:backgroundTint="#374151"
+            android:backgroundTint="#0097A7"
             android:text="Set Monthly Goals"
             android:textColor="#FFFFFF" />
 
@@ -78,7 +78,7 @@
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
-            android:backgroundTint="#374151"
+            android:backgroundTint="#0097A7"
             android:text="View Total by Category"
             android:textColor="#FFFFFF" />
     </LinearLayout>
