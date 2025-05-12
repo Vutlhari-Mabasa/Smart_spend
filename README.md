@@ -99,3 +99,4 @@ com.example.spending/
 * All database operations are done on background threads using Kotlin coroutines.
 * The app uses a dark, modern UI to enhance usability and reduce eye strain.
 
+LINK TO YOUTUBE VIDEO: https://youtube.com/shorts/MRH53fozgf4?si=rKcEVX1mbSaeZQDy
